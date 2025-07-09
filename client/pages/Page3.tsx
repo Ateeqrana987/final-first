@@ -158,7 +158,7 @@ export default function Page3() {
         if (prev <= 1) {
           clearInterval(timer);
           // Redirect to page 4
-          window.location.href = "/page-4.html";
+          window.location.href = "/page-4";
           return 0;
         }
         return prev - 1;
